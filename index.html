@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <title>Body Mass Index</title>
-<link src="asset/css/style.css" type="text/css" rel="stylesheet">
-    
-
 </head>
+ <link  rel="stylesheet" href="asset/css/style.css">
 <body>
 
 <section class="container">
@@ -15,11 +12,11 @@
 			<legend>BMI Calculator</legend>
 			<label>
 				Weight
-				<input id="weight" type="text" required="required" />
+				<input id="weight" type="text" placeholder="75" required="required" />
 			</label>
 			<label>
 				Height
-				<input id="height" type="text" required="required" />
+				<input id="height" type="text" placeholder="Ex: 1.71" required="required" />
 			</label>
 			<button>Calculate</button>
 		</fieldset>
@@ -30,6 +27,9 @@
 		<span class="result">0.00</span>
 	</div>
 </section>
+    <script src="asset/js/BMIService.js"></script>
+    <script src="asset/js/BMIController.js"></script>
+    
 
 </body>
 </html>
